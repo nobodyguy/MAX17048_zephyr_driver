@@ -45,12 +45,12 @@ CONFIG_MAX17048=y
 Define MAX17048 in your board `.overlay` like this example:
 ```dts
 /{
-	fuel_gauge: max17048@36 {
+    fuel_gauge: max17048@36 {
         status = "okay";
         compatible = "maxim,max17048";
         enable-sleep;
         reg = <0x36>;
-};
+    };
 };
 ```
 
